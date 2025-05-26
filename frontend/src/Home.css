@@ -68,6 +68,11 @@ body, html {
   gap: 200px;
 }
 
+.home-subtitle {
+  font-size: 1.25rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
 
 
 .home-button {

@@ -16,7 +16,9 @@ const HomePage = () => {
     <div className="home-container">
       <button className="logout-btn" onClick={handleLogout}>Logout</button>
       <button className="profile-btn">👤 {username}</button>
-      <h1 className="home-title">Welcome to CryptX</h1>
+      <h1 className="home-title">Welcome to SecureScribe</h1>
+      <p className="home-subtitle">Your privacy-first mail encryption service. Send messages with confidence and confidentiality.</p>
+
       <div className="button-group">        
   <button className="home-button send-btn" onClick={() => navigate("/send")}>
   Send Message
